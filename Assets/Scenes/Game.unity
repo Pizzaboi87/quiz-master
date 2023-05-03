@@ -249,6 +249,7 @@ MonoBehaviour:
   defaultAnswerSprite: {fileID: 21300000, guid: bbe4b06168afb934387ec32716c269d7, type: 3}
   selectedAnswerSprite: {fileID: 21300000, guid: 600b6c930425b9d41a8cda41a2ec4151, type: 3}
   correctAnswerSprite: {fileID: 21300000, guid: 3a7128c636769514492ccbefa6a8e256, type: 3}
+  timerImage: {fileID: 1791350527}
 --- !u!1 &70406473
 GameObject:
   m_ObjectHideFlags: 0
@@ -1285,7 +1286,7 @@ MonoBehaviour:
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
-  m_FillClockwise: 1
+  m_FillClockwise: 0
   m_FillOrigin: 2
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
