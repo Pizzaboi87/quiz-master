@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 36309173}
   - component: {fileID: 36309172}
   - component: {fileID: 36309171}
+  - component: {fileID: 36309175}
   m_Layer: 5
   m_Name: QuizCanvas
   m_TagString: Untagged
@@ -225,6 +226,25 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &36309175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 36309170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 578bf9372c1437648b9118bdf239919e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questionText: {fileID: 1376622158}
+  question: {fileID: 11400000, guid: a241bd9bac5ba864f9dff106e3668758, type: 2}
+  answerButtons:
+  - {fileID: 1094450519}
+  - {fileID: 1674591287}
+  - {fileID: 1625998108}
+  - {fileID: 1331272609}
 --- !u!1 &70406473
 GameObject:
   m_ObjectHideFlags: 0
@@ -546,6 +566,16 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1094450519 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2164941022935603449, guid: bbdbb9b5a6320b34ab46d0fbb702562a, type: 3}
+  m_PrefabInstance: {fileID: 8549407295574440803}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1331272609 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2164941022935603449, guid: bbdbb9b5a6320b34ab46d0fbb702562a, type: 3}
+  m_PrefabInstance: {fileID: 2025551926}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1376622156
 GameObject:
   m_ObjectHideFlags: 0
@@ -859,6 +889,16 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1567781356}
   m_CullTransparentMesh: 1
+--- !u!1 &1625998108 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2164941022935603449, guid: bbdbb9b5a6320b34ab46d0fbb702562a, type: 3}
+  m_PrefabInstance: {fileID: 1807397811}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1674591287 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2164941022935603449, guid: bbdbb9b5a6320b34ab46d0fbb702562a, type: 3}
+  m_PrefabInstance: {fileID: 1685379893}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1685379893
 PrefabInstance:
   m_ObjectHideFlags: 0
