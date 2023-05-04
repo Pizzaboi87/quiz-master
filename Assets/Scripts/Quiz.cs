@@ -29,10 +29,14 @@ public class Quiz : MonoBehaviour
     [SerializeField] TextMeshProUGUI scoreText;
     ScoreKeeper scoreKeeper;
 
+    [Header("ProgressBar")]
+    [SerializeField] Slider progressBar;
+
     void Start()
     {
         timer = FindAnyObjectByType<Timer>();
         scoreKeeper = FindAnyObjectByType<ScoreKeeper>();
+        progressBar.maxValue = questions.Count;
     }
 
     void Update()
